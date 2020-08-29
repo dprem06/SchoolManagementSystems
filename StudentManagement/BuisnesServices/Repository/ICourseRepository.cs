@@ -18,7 +18,7 @@ namespace BuisnesServices.Repository
         /// Get All Courses
         /// </summary>
         /// <returns>Courses</returns>
-        Task<Course> GetCourseById(int id);
+        Task<IEnumerable<Course>> GetCourseById(int id);
 
 
         /// <summary>

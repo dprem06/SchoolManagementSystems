@@ -38,9 +38,9 @@ namespace BuisnesServices.Repository
             return result;
         }
 
-        public async Task<Course> GetCourseById(int id)
+        public async Task<IEnumerable<Course>> GetCourseById(int id)
         {
-            return await _context.Courses.FirstOrDefaultAsync(e => e.CourseId == id);
+            return await _context.Courses.Where(e => e.CourseId == id).ToListAsync();
         }
 
         public async Task<IEnumerable<Course>> GetCourses()

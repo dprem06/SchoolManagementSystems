@@ -7,6 +7,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using StudentManagement.CQRS.Query;
+using StudentManagement.CQRS.Command;
+using Microsoft.AspNetCore.Authorization;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -15,6 +17,7 @@ namespace StudentManagement.Controllers
 
     [Route("api/[controller]")]
     [ApiController]
+    //[Authorize]
     public class CourseController : ControllerBase
     {
         private IMediator _mediator;
@@ -29,27 +32,24 @@ namespace StudentManagement.Controllers
 
         // GET api/<CourseController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<IActionResult> Get(int id)
         {
-            return "value";
+            return Ok(await Mediator.Send(new GetCoursesById { Id = id }));
+
         }
 
         // POST api/<CourseController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public async Task<IActionResult> Post([FromBody] AddCourseCommand command)
         {
-        }
-
-        // PUT api/<CourseController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
+            return Ok(await Mediator.Send(command));
         }
 
         // DELETE api/<CourseController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
+            return Ok(await Mediator.Send(new DeleteCourseCommand { Id = id }));
         }
     }
 }
