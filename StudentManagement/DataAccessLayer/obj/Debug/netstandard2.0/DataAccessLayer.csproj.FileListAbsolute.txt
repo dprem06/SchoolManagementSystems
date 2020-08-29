@@ -1,0 +1,9 @@
+C:\premworks\StudentManagement\StudentManagement\DataAccessLayer\bin\Debug\netstandard2.0\DataAccessLayer.deps.json
+C:\premworks\StudentManagement\StudentManagement\DataAccessLayer\bin\Debug\netstandard2.0\DataAccessLayer.dll
+C:\premworks\StudentManagement\StudentManagement\DataAccessLayer\bin\Debug\netstandard2.0\DataAccessLayer.pdb
+C:\premworks\StudentManagement\StudentManagement\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.csprojAssemblyReference.cache
+C:\premworks\StudentManagement\StudentManagement\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\premworks\StudentManagement\StudentManagement\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.AssemblyInfo.cs
+C:\premworks\StudentManagement\StudentManagement\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.dll
+C:\premworks\StudentManagement\StudentManagement\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.pdb
+C:\premworks\StudentManagement\StudentManagement\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.csproj.CoreCompileInputs.cache
