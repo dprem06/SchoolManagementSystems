@@ -35,7 +35,7 @@ namespace StudentManagement.Controllers
         public async Task<IActionResult> Get(int id)
         {
             return Ok(await Mediator.Send(new GetCoursesById { Id = id }));
-            
+
         }
 
         // POST api/<CourseController>
@@ -45,17 +45,11 @@ namespace StudentManagement.Controllers
             return Ok(await Mediator.Send(command));
         }
 
-        // PUT api/<CourseController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
         // DELETE api/<CourseController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-
+            return Ok(await Mediator.Send(new DeleteCourseCommand { Id = id }));
         }
     }
 }
