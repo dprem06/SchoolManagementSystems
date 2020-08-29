@@ -1,0 +1,12 @@
+C:\premworks\StudentManagement\StudentManagement\BuisnesServices\bin\Debug\netstandard2.0\BuisnesServices.deps.json
+C:\premworks\StudentManagement\StudentManagement\BuisnesServices\bin\Debug\netstandard2.0\BuisnesServices.dll
+C:\premworks\StudentManagement\StudentManagement\BuisnesServices\bin\Debug\netstandard2.0\BuisnesServices.pdb
+C:\premworks\StudentManagement\StudentManagement\BuisnesServices\obj\Debug\netstandard2.0\BuisnesServices.csprojAssemblyReference.cache
+C:\premworks\StudentManagement\StudentManagement\BuisnesServices\obj\Debug\netstandard2.0\BuisnesServices.AssemblyInfoInputs.cache
+C:\premworks\StudentManagement\StudentManagement\BuisnesServices\obj\Debug\netstandard2.0\BuisnesServices.AssemblyInfo.cs
+C:\premworks\StudentManagement\StudentManagement\BuisnesServices\obj\Debug\netstandard2.0\BuisnesServices.csproj.CoreCompileInputs.cache
+C:\premworks\StudentManagement\StudentManagement\BuisnesServices\obj\Debug\netstandard2.0\BuisnesServices.dll
+C:\premworks\StudentManagement\StudentManagement\BuisnesServices\obj\Debug\netstandard2.0\BuisnesServices.pdb
+C:\premworks\StudentManagement\StudentManagement\BuisnesServices\bin\Debug\netstandard2.0\DataAccessLayer.dll
+C:\premworks\StudentManagement\StudentManagement\BuisnesServices\bin\Debug\netstandard2.0\DataAccessLayer.pdb
+C:\premworks\StudentManagement\StudentManagement\BuisnesServices\obj\Debug\netstandard2.0\BuisnesServices.csproj.CopyComplete
